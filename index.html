@@ -51,13 +51,13 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" href="#photoa">Gallery</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#packages">Packages</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Subscribe</a>
+                  <a class="nav-link" href="#review">Customer review</a>
                 </li>
               </ul>
             </div>
@@ -184,7 +184,7 @@
     <main>
       <!-- Toast area -->
       <div class="position-fixed bottom-50 end-0 p-3" style="z-index: 11">
-        <div
+      <div
         class="toast show align-items-center"
         role="alert"
         aria-live="assertive"
@@ -209,7 +209,7 @@
       </div>
       </div>
       <!-- photo area -->
-      <section class="photo-gallery mt-5">
+      <section class="photo-gallery mt-5" id="photoa">
         <h2 class="fw-bold mb-2 text-center">Photo Gallery</h2>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-0">
           <div class="col">
@@ -254,8 +254,23 @@
           </div>
         </div>
       </section>
+      <!-- Moment area  -->
+      <section class="moment my-5 py-5">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 align-items-center gy-4">
+            <div class="col">
+              <img class="img-fluid" src="./images/wedding.png" alt="">
+            </div>
+            <div class="col">
+              <h2 class="fw-bold mb-2">Every moment is Precious</h2>
+              <p class="text-muted">Life is a beautiful gift from God to cherish and value every minute we get. Life is not all about materialistic things. It is our happiness that matters.Time is an inseparable component of life. Valuing your time adds meaning to your life. Hence you need to make every moment count by living it your best.</p>
+              <div class="btn btn btn-outline-primary px-4">Explore More</div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- pricing planning -->
-      <section>
+      <section id="packages">
         <div class="container my-5">
           <h2 class="fw-bold mb-5 text-center">Our package</h2>
           <div
@@ -471,8 +486,54 @@
           </div>
         </div>
       </section>
+      <!-- Customer review -->
+      <section id="review" class="my-5">
+        <div class="container">
+          <h2 class="fw-bold mb-5 text-center">Happy Clients says</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 border-0 shadow p-1">
+                <div class="card-body">
+                  <p class="card-text">Great management, very supportive, strong mission and values. Michael Bush the CEO and the whole organization are wonderful people. Having nice location with excellent security. Huge place for any huge conference.
+                    Would be a great place.
+                  </p>
+                  <div class="text-center">
+                    <img class="rounded-circle" src="./images/person 1.png" alt="">
+                    <h5 class="fw-bold mt-3 mb-0">Cret Yater</h5>
+                    <p class="text-muted m-0">Entrepreneur</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0 shadow p-1">
+                <div class="card-body">
+                  <p class="card-text">Little bit expensive but overall okay with services. This is one of the best convention center i have ever visited. Having nice location with excellent security. They should offer few discount among couples , so they can get surprised.</p>
+                  <div class="mt-2 text-center">
+                    <img class="rounded-circle" src="./images/person 3.png" alt="">
+                    <h5 class="fw-bold mt-3 mb-0">John Dev</h5>
+                    <p class="text-muted m-0">Freelancer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0 shadow p-1">
+                <div class="card-body">
+                  <p class="card-text">Huge place for any huge conference. I came here for CES and it was filled with booths and had to have smaller areas.Lots of bathrooms and floors. Would be a great place to hold any event large enough.</p>
+                  <div class="mt-2 text-center">
+                    <img class="rounded-circle" src="./images/person 2.png" alt="">
+                    <h5 class="fw-bold mt-3 mb-0">Amanda choi</h5>
+                    <p class="text-muted m-0">Banker</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Question Area -->
-      <section>
+      <section class="pt-4">
         <div class="container">
           <h2 class="fw-bold mb-5 text-center">Frequently Asked Questions</h2>
           <div class="row row-cols-1 row-cols-md-2 align-items-center g-5">
